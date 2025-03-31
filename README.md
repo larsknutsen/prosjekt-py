@@ -5,7 +5,7 @@ Programmet starter med å lese den vedlagte excelfilen og viser så en meny som 
 
 Programmet kan brukes til å:
 
-- finne antall henvendelser for hver de 5 ukedagene, resultat vises i et stolpediagram
+- finne antall henvendelser for hver av de 5 ukedagene, resultat vises i et stolpediagram
 - finne korteste og lengste samtaletid/varighet, resultatet vises til skjerm
 - regne ut gjennomsnittlig samtaletid basert på alle henvendelser
 - finner det totale antall henvendelser supportavdelingen mottok for hver av tidsrommene 08-10, 10-12, 12-14 og 14-16. Resultatet vises i et kakediagram
