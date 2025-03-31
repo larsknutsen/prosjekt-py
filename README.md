@@ -2,6 +2,7 @@
 Dette er området for filer til prosjektoppgaven ifaget PY1010
 
 Programmet starter med å lese den vedlagte excelfilen og viser så en meny som bruker kan gjøre valg i
+
 Programmet kan brukes til å:
 
 - finne antall henvendelser for hver de 5 ukedagene, resultat vises i et stolpediagram
