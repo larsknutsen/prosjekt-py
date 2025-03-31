@@ -5,9 +5,7 @@
 
 import pandas as pd #import for analyse av data
 import matplotlib.pyplot as plt #import for plotting
-clear2 = "\n" * 2 #legger 2 linjeskift til variabel clear5
-
-#u_dag, k_slett, varighet, score = [], [], [], [] #globale data
+clear2 = "\n" * 2 #legger 2 linjeskift til variabel clear2
 
 def les_data(): #funksjon for å lese data. Del A
     global u_dag, k_slett, varighet, score #globale variabler
@@ -18,7 +16,7 @@ def les_data(): #funksjon for å lese data. Del A
     score = df.iloc[:, 3].tolist() #leser kolonne tilfredshet
     print("Fil lest") #printer at filen er lest, for å være sikker på at filinnlesning gikk i orden
     
-    #ett akutelt tillegg her kunne vært å spørre bruker om å taste inn filnavn, men det var ikke en del av oppgaven
+    #ett aktuelt tillegg her kunne vært å spørre bruker om å taste inn filnavn, men det var ikke en del av oppgaven
     
 def vis_antall_henvendelser_per_dag(): #funksjon for å plotte antall hendvendelser pr dag. Del B
     counts = pd.Series(u_dag).value_counts().sort_index() #teller antall pr ukedag
